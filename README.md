@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+## [pagina del proyecto](https://singular-haupia-7baadd.netlify.app/)
+
+- usamos [netlify](https://app.netlify.com/) para un despliegue más profesional
+
+- modificamos el script `build` para que no muestre todo los archivos de desarrollo quedando entonces de esta manera: `"build": "GENERATE_SOURCEMAP=false react-scripts build"`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
