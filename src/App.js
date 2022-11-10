@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Contenedor from './componentes/Contenedor';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="contenedor-principal">
+      <Contenedor
+        subTitulo = "Un subtitulo 1"
+        imgNombre = "img-2.jpg"
+      />
+      <Contenedor
+        subTitulo = "Un subtitulo 2"
+        imgNombre = "img-3.jpg"
+      />
+      <Contenedor
+        subTitulo = "Un subtitulo 3"
+        imgNombre = "img-4.jpeg"
+      />
+      <Contenedor
+        subTitulo = "Un subtitulo 4"
+        imgNombre = "img-1.png"
+      />
     </div>
   );
 }
