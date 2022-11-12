@@ -20,6 +20,10 @@
     font-size: var(--tam-text);
 }
 
+.contenedor-cuadrado{
+    border-radius: 0px;
+}
+
 button{
     font-size: 1.5vh;
     width: 10vh;

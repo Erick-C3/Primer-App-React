@@ -5,7 +5,7 @@ function Contenedor(props){
     let otraVariable = (<button>Un boton</button>);
 
     return (
-        <div className="contenedor">
+        <div className={"contenedor" + (props.esCuadrado ? " contenedor-cuadrado": "")}>
             <h1>{variable * 4} Primer aplicacion web con React</h1>
             <h2>{props.subTitulo}</h2>
             {otraVariable}
